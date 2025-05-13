@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="placar-container">
+        <h1>Placar de Vôlei</h1>
+
+        <div class="time-info">
+            <h2 id="time1-name"></h2>
+            <h2 id="time2-name"></h2>
+        </div>
+
+        <div class="placar">
+            <div class="time">
+                <h3 id="placar-time1">0</h3>
+                <button id="add-pontos-time1">Adicionar Ponto</button>
+            </div>
+            <div class="time">
+                <h3 id="placar-time2">0</h3>
+                <button id="add-pontos-time2">Adicionar Ponto</button>
+            </div>
+        </div>
+
+        <div class="sets">
+            <h3>Sets</h3>
+            <p>Set 1: <span id="set1-time1">0</span> - <span id="set1-time2">0</span></p>
+            <p>Set 2: <span id="set2-time1">0</span> - <span id="set2-time2">0</span></p>
+            <p>Set 3: <span id="set3-time1">0</span> - <span id="set3-time2">0</span></p>
+            <p>Set 4: <span id="set4-time1">0</span> - <span id="set4-time2">0</span></p>
+            <p>Set 5: <span id="set5-time1">0</span> - <span id="set5-time2">0</span></p>
+        </div>
+
+        <div id="placar-final" style="display:none; margin-top: 20px;">
+            <h2 id="vencedor"></h2>
+        </div>
+
+        <button id="finalizar">Finalizar Jogo</button>
+        <a href="index.html">Voltar</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
